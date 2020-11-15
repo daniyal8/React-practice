@@ -1,0 +1,23 @@
+body{
+    background-color: dodgerblue;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 10px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: white;
+    border-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.list:hover{
+    box-shadow: 0 0 30px white;
+    transition: 0.5s;
+}
